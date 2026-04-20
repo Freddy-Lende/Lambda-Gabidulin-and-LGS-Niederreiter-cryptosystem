@@ -19,7 +19,7 @@ The project is designed to support the design of **post-quantum cryptographic pr
 
 ---
 
-### 2. Multi-Field Support (\( q \geq 2 \))
+### 2. Multi-Field Support (\( q ≥ 2 \))
 
 This framework overcomes standard SageMath limitations (NTL/Givaro) and supports arbitrary extensions \( \mathbb{F}_{q^m} / \mathbb{F}_q \).
 
