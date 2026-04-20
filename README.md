@@ -25,7 +25,6 @@ This framework overcomes standard SageMath limitations (NTL/Givaro) and supports
 
 - **Relative mapping engine**: formal vector-space morphisms (`to_V`) ensure compatibility across finite field backends.
 - **Robust vectorization**: supports \( q = 2, 8, 16, \dots \) for both key generation and decryption workflows.
-- Full interoperability between NTL and Givaro representations.
 
 ---
 
@@ -89,7 +88,7 @@ results, summary = run_experiment(
     m=5,
     n=5,
     k=1,
-    kp=4,
+    kp=4, #k_prime
     N=500,
     seed=None,
     verbose=True,
@@ -99,11 +98,11 @@ results, summary = run_experiment(
 - LGS-Niederreiter cryptosystem
 p = 2
 s_exp = 1
-q_val = p**s_exp
-Fq_global = GF(q_val, names=('z',)); (z,) = Fq_global._first_ngens(1)
+q = p**s_exp
+Fq_global = GF(q, names=('z',)); (z,) = Fq_global._first_ngens(1)
 
 n = 34
-m_rel = n 
+m = n 
 k = 24
 k_prime = 800 
 delta = 1
