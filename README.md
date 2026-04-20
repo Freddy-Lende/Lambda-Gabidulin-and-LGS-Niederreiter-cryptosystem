@@ -3,7 +3,7 @@ This script computes the dimensions of the left and right stabilizer algebras of
 
 ## Overview
 
-This repository provides a high-performance **SageMath framework** for the study of **λ-Gabidulin codes**, their subcodes, and their security in the **rank-metric cryptography setting**.
+This repository provides a performance **SageMath framework** for the study of **λ-Gabidulin codes**, their subcodes, and their security in the **rank-metric cryptography setting**.
 
 It focuses on characterizing the algebraic structure of these codes via **stabilizer algebras**, and on evaluating their resistance against state-of-the-art cryptanalysis.
 
@@ -41,7 +41,7 @@ The framework provides a comprehensive evaluation of **rank-metric attack comple
 
 ### 4. LGS-Niederreiter Cryptosystem
 
-- Full implementation of a **Niederreiter-type encryption/decryption scheme**.
+- Implementation of **Niederreiter-type encryption/decryption scheme**.
 - Automatic estimation of parameters for for all proposal parameters.
 - Integrated evaluation of key sizes and ciphertext expansion.
 
@@ -74,8 +74,6 @@ This implementation supports experimental and theoretical research in:
 
 - SageMath ≥ 9.x
 - Python 3.x (embedded in Sage)
-- Optional: NumPy, SymPy
-
 ---
 
 ### Usage Example
@@ -113,7 +111,7 @@ delta = 1
 - Automatic estimation of Attack Complexity, key and ciphertext sizes for all proposal parameters.
 
 
-## Author
+## Authors
 Freddy Lendé Metouké, Hervé Talé Kalachi, Hermann Tchatchiem Kamche, Ousmane
 Ndiaye, Sélestin Ndjeya
 
